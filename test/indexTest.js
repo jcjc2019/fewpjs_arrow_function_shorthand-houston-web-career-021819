@@ -3,8 +3,8 @@ describe("index.js", () => {
     expect(divide).to.exist
   })
   it("divide divides 2000 by 100", () => {
-    let x = 2
-    expect(divide).to.equal(20)
+    // let x = 2
+    expect(divide()).to.equal(20)
   })
   
   it("has an arrow function called square", () => {
